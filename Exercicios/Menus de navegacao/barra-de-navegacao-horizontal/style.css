@@ -1,0 +1,46 @@
+/* 
+*****************************
+Barra de navegacao horizontal
+*****************************
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background:  rgb(21, 156, 176) url(/img/fundo-horizontal.png) repeat-x;
+    float: left;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: url(/img/divisor.png) repeat-y left top ;
+  }
+  
+  ul .primeiro a{
+    background: none;
+  }
+  
+  ul a:hover {
+    color: rgb(8, 86, 98);
+    background: rgb(68, 202, 222);
+  }
+  
+  #home #navegacao .home a,
+  #sobre #navegacao  .sobre a,
+  #servicos #navegacao  .servicos a,
+  #noticias #navegacao .noticias a,
+  #contato #navegacao .contato a {
+    color: rgb(8, 86, 98);
+    background: rgb(68, 202, 222);
+  }
+  

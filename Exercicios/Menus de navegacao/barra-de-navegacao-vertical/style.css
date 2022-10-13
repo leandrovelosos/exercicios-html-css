@@ -1,0 +1,44 @@
+/*desfazendo as regras já existentes*/
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+  
+  /*Regras menu*/
+  ul a {
+    display: block;
+    /*border: solid 1px rgb(255, 0, 0);*/
+    width: 200px;
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(/img/menu.png) no-repeat left bottom;
+  }
+  
+  /*Estados dos links
+  Nesta regra a imagem sera movida para direita sempre que o cursor do mouse estiver sobrre o menu
+  */
+  
+  /*se a imagem de fundo do menu não carregar foram definidas cores de background*/
+  
+  a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+  }
+  
+  /*exibir opção selecionada no menu*/
+  
+  #home #navegacao .home a,
+  #sobre #navegacao  .sobre a,
+  #servicos #navegacao  .servicos a,
+  #noticias #navegacao .noticias a,
+  #contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+  }
+  
