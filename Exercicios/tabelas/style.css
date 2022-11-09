@@ -1,0 +1,38 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+table{
+    width: 900px;
+    border-collapse: separate; /*border-collapse: separete -> separa as bordas collpase -> uni elas*/
+}
+
+th, td {
+
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;/*deixa as letras maiusculas*/
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em; /*define o espaçamento entre as letras*/
+}
+
+tr.alternado{
+    background-color: #efefef;
+    
+}
+
+.numero{
+    text-align: right;
+}
+
+tr.destaque:hover{
+    background-color: rgb(170, 165, 164);
+    font-weight: bold;
+}
+
+ 
