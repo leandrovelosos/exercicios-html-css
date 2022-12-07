@@ -11,7 +11,7 @@ body {
 #container {
     width: 750px;
     margin: 0 auto;
-   
+
 }
 
 #topo {
@@ -65,7 +65,9 @@ ul {
 }
 
 /*marca no menu de navegacao a pagina em que o usuario esta*/
-body.home #navegacao a#home {
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.fotos #navegacao a#fotos {
     color: #fff;
     background: #de002e;
     cursor: text;
@@ -73,26 +75,44 @@ body.home #navegacao a#home {
 
 /*configuracao de layout de conteudo de colunas*/
 
-#conteudo{
+#conteudo {
     margin-top: 60px;
     background-color: #f5f5f5;
 }
 
-#primario{
+/*podemos fazer as regras de formatacao de colunas de duas formas, as propriedades comentadas são referentes a forma mais longa*/
+
+/*#tres-colunas*/
+#primario {
     width: 270px;
     background-color: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
 
-#secundario{
+
+#duas-colunas #primario {
+    width: 555px;
+    /*float: left;
+    margin: 0 0 20px 195px;
+    background-color: blue;*/
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+    /*float: left;
+    background-color: blue;*/
+}
+
+#secundario {
     width: 270px;
     background-color: green;
     float: left;
     margin: 0 0 20px 15px;
 }
 
-#lateral{
+#lateral {
     width: 180px;
     background-color: yellow;
     float: left;
@@ -100,12 +120,12 @@ body.home #navegacao a#home {
 }
 
 /*regras css rodape*/
-#container-rodape{
+#container-rodape {
     background-color: #294c71;
     padding: 20px;
 }
 
-#rodape{
+#rodape {
     width: 750px;
     margin: 0 auto;
     color: #fff;
