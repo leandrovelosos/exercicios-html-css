@@ -11,12 +11,12 @@ body {
 #container {
     width: 750px;
     margin: 0 auto;
-    border: 1px solid red;
+   
 }
 
 #topo {
     height: 150px;
-    border: 1px solid red;
+
     padding-top: 25px;
     background: url(/Exercicios/cidade-noticias/img/detalhe-topo.png) no-repeat right top;
 }
@@ -59,6 +59,7 @@ ul {
     background: none;
 }
 
+/*marca o as opções do menu ao passar o cursor do mouse*/
 #topo ul a:hover {
     color: #69001d;
 }
@@ -68,4 +69,44 @@ body.home #navegacao a#home {
     color: #fff;
     background: #de002e;
     cursor: text;
+}
+
+/*configuracao de layout de conteudo de colunas*/
+
+#conteudo{
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    background-color: blue;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    background-color: green;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    background-color: yellow;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+/*regras css rodape*/
+#container-rodape{
+    background-color: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
