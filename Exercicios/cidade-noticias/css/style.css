@@ -85,7 +85,7 @@ body.fotos #navegacao a#fotos {
 /*#tres-colunas*/
 #primario {
     width: 270px;
-    background-color: blue;
+  
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -107,7 +107,7 @@ body.fotos #navegacao a#fotos {
 
 #secundario {
     width: 270px;
-    background-color: green;
+ 
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -188,4 +188,36 @@ input.enviar{
     background-color: #b10333;
     border: 2px solid #870529;
     margin-top: 5px;
+}
+
+
+/*formatação destaques*/
+
+/*formatação padrao de imagens */
+img{
+    border: 2px solid #dfdfdf;
+}
+/**/
+
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase; /*fonte maiuscula*/
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background-color: #de003e;
+    color: #fff;
 }
