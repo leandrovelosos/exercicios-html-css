@@ -238,5 +238,16 @@ h3{
 
 #lista-noticias li a{
     text-decoration: none;
-    font-size: 0.8em;
 }
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+}
+
+#lista-noticias li a p{
+    font-size: 0.6em;
+}
+
+
+
